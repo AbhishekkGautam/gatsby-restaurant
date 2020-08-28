@@ -38,5 +38,6 @@ const HeaderWrapper = styled.div`
     .toggle-icon {
       display: none;
     }
+    padding: 0.4rem 1rem;
   }
 `
