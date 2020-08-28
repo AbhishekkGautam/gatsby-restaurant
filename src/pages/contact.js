@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import { PageHeader } from "../utils"
+import contactImg from "../images/bcg/contactBcg.jpeg"
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Contact Page</h1>
+    <PageHeader img={contactImg}>Contact page</PageHeader>
   </Layout>
 )
 
